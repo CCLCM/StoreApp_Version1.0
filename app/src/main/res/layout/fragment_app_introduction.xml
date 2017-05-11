@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhxu.storeapp.view.BounceScrollView
+        android:id="@+id/app_introduction_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/app_detail_gallery_horizontalscrollview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16.0dip"
+                android:layout_marginTop="6.0dip"
+                android:scrollbarStyle="outsideInset"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:id="@+id/app_detail_gallery_container_linearlayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" />
+            </HorizontalScrollView>
+
+            <include
+                android:id="@+id/appdetail_info"
+                layout="@layout/appdetail_item_appinfo"/>
+            <com.zhxu.storeapp.view.widget.FoldingTextView
+                android:id="@+id/app_detail_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </com.zhxu.storeapp.view.BounceScrollView>
+
+
+
+</LinearLayout>

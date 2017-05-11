@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhxu.storeapp.view.widget.SearchView
+        android:id="@+id/view_search"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+    <com.zhxu.storeapp.view.widget.SearchBarLayout
+        android:id="@+id/layout_search_btn"
+        android:layout_width="@dimen/ui_40_dp"
+        android:layout_height="@dimen/ui_40_dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/search_circle_bar_margin_right"
+        android:clickable="false"
+        android:visibility="gone"
+        app:search_bar_color_normal="@color/search_btn_color_normal"
+        app:search_bar_color_pressed="@color/search_btn_color_pressed"
+        app:search_bar_color_shadow="@color/search_bar_color_shadow"
+        app:search_bar_enable_shadow="true"
+        app:search_bar_shadow_padding="1.5dip">
+
+        <ImageView
+            android:id="@+id/layout_search_btn_icon"
+            android:layout_width="@dimen/ui_24_dp"
+            android:layout_height="@dimen/ui_24_dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_public_search_blue_normal" />
+    </com.zhxu.storeapp.view.widget.SearchBarLayout>
+
+    <RelativeLayout
+        android:id="@+id/search_icon_layout"
+        android:layout_width="@dimen/search_view_layout_width"
+        android:layout_height="@dimen/search_bar_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/search_icon_view"
+            android:layout_width="@dimen/search_icon_width"
+            android:layout_height="@dimen/search_icon_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/search_icon_margin_right"
+            android:contentDescription="@string/search_btn_click"
+            android:scaleType="center"
+            android:src="@drawable/title_search_icon_selector" />
+    </RelativeLayout>
+</RelativeLayout>

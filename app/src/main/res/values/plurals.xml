@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="appinstall_uninstall_app_batch_mainuser">
+        <item quantity="other">是否卸载%3$s%1$s等%2$s个应用？</item>
+        <item quantity="one">是否卸载%3$s%1$s等%2$s个应用？</item>
+    </plurals>
+    <plurals name="cancel_ignore_desc">
+        <item quantity="other">将 %d 款应用加入更新列表，恢复正常更新。</item>
+    </plurals>
+    <plurals name="checkin_mannual_continuous_day">
+        <item quantity="other">连续签到 %1$s 天</item>
+        <item quantity="one">连续签到%1$s天</item>
+    </plurals>
+    <plurals name="checkin_mannual_continuous_login">
+        <item quantity="other">连续登录 %1$s 天</item>
+        <item quantity="one">连续登录%1$s天</item>
+    </plurals>
+    <plurals name="checkin_mannual_get_getals_tomorrow">
+        <item quantity="other">明天 %1$s 花瓣</item>
+        <item quantity="one">明天%1$s花瓣</item>
+    </plurals>
+    <plurals name="checkin_mannual_get_petals">
+        <item quantity="other">领 %1$s 花瓣</item>
+        <item quantity="one">领%1$s花瓣</item>
+    </plurals>
+    <plurals name="detail_comment_commented_people">
+        <item quantity="other">%d 人评分</item>
+    </plurals>
+    <plurals name="downloadedreport_app_limited_ex">
+        <item quantity="other">您已安装 %1$s 个应用，达到送花瓣的上限。感谢参与！</item>
+    </plurals>
+    <plurals name="downloadedreport_awardtype_point_ex">
+        <item quantity="other">安装完成，获得 %1$s 花瓣</item>
+    </plurals>
+    <plurals name="hwpush_delete_tip">
+        <item quantity="other">是否删除所选通知？</item>
+    </plurals>
+    <plurals name="nospace_delete_pause_task_desc_ex">
+        <item quantity="other">删除暂停安装的安装包 (%1$s 个，可节省 %2$s)</item>
+    </plurals>
+    <plurals name="paused_toast_ex">
+        <item quantity="other">%1$s 个安装任务已暂停</item>
+    </plurals>
+    <plurals name="reserve_download_apps_ex">
+        <item quantity="other">%1$s款应用预约任务已完成</item>
+    </plurals>
+    <plurals name="reserve_installdlg_content">
+        <item quantity="other">需安装 %1$s 个应用 (%2$s)。建议选择“WLAN下自动安装”，连接 WLAN 网络后可自动安装。</item>
+    </plurals>
+    <plurals name="reserve_updatedlg_content_modify_ex">
+        <item quantity="other">需更新 %1$s 个应用 (%2$s)。建议选择“WLAN下自动安装”，连接 WLAN 网络后可自动安装。</item>
+    </plurals>
+    <plurals name="reserved_persons">
+        <item quantity="other">(%1$s 万人已预约)</item>
+    </plurals>
+    <plurals name="reserver_downloadall_question_ex">
+        <item quantity="other">是否安装 %1$s 个应用？</item>
+    </plurals>
+    <plurals name="resume_toast_ex">
+        <item quantity="other">%1$s 个安装任务已开始</item>
+    </plurals>
+    <plurals name="update_notify_title_ex">
+        <item quantity="other">%1$s 款应用推荐更新，共%2$s</item>
+        <item quantity="one">%1$s 款应用推荐可更新，共%2$s</item>
+    </plurals>
+</resources>

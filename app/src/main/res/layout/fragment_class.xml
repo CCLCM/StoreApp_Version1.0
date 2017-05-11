@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@id/search_icon"
+        android:layout_width="56.0dip"
+        android:layout_height="@dimen/tab_column_height"
+        android:layout_alignParentRight="true"
+        android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="@dimen/search_icon_landscape_width"
+        android:layout_height="@dimen/search_icon_landscape_width"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/search_icon_landscape_margin_right"
+        android:src="@drawable/title_search_icon_selector_blue" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/backgound_fcfcfc">
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/hispace_title_emui" />
+
+    <com.zhxu.storeapp.view.BounceScrollView
+        android:id="@+id/about_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title">
+
+        <LinearLayout
+            android:id="@+id/about_view_main_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/icon_container"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="@dimen/about_height"
+                android:layout_marginBottom="@dimen/about_height"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="90.0dip"
+                    android:layout_height="90.0dip"
+                    android:src="@drawable/appmarket_setting_icon" />
+
+                <TextView
+                    android:id="@+id/clientAppName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8.0dip"
+                    android:text="@string/client_app_name"
+                    android:textColor="@color/title_name_black"
+                    android:textIsSelectable="true"
+                    android:textSize="@dimen/res_textsize_15sp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="24.0dip"
+                    android:layout_marginRight="24.0dip"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:alpha="0.3"
+                        android:lineSpacingMultiplier="1.3"
+                        android:text="@string/detail_version"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/res_textsize_13sp" />
+
+                    <TextView
+                        android:id="@+id/version"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8.0dip"
+                        android:lineSpacingMultiplier="1.3"
+                        android:singleLine="true"
+                        android:text="@string/app_version"
+                        android:textColor="@color/half_black"
+                        android:textSize="@dimen/res_textsize_13sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/line_width"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:background="@drawable/list_divider_holo_light" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/hispaceportal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/developercenter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/weixnaccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/weiboaccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/kefumm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <com.zhxu.storeapp.view.widget.EnterLayout
+                android:id="@+id/qqgroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector" />
+
+            <RelativeLayout
+                android:id="@+id/shareappcenter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_normal_selector"
+                android:paddingLeft="18.0dip"
+                android:paddingRight="8.0dip">
+
+                <ImageView
+                    android:id="@+id/arrowlayout6"
+                    android:layout_width="32.0dip"
+                    android:layout_height="32.0dip"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/arrow_right_big" />
+
+                <TextView
+                    android:id="@+id/portalText6"
+                    style="@style/item_title_true_14sp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/arrowlayout6"
+                    android:gravity="center_vertical"
+                    android:includeFontPadding="false"
+                    android:paddingBottom="14.0dip"
+                    android:paddingTop="14.0dip"
+                    android:text="@string/about_shareappcenter" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/line_width"
+                android:layout_marginLeft="16.0dip"
+                android:layout_marginRight="16.0dip"
+                android:background="@drawable/list_divider_holo_light" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24.0dip"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:paddingLeft="24.0dip"
+                android:paddingRight="24.0dip">
+
+                <TextView
+                    android:id="@+id/protocol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hispace_protocol_item_user_name"
+                    android:textColor="@color/detail_navigator_selected"
+                    android:textSize="@dimen/res_textsize_11sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/guide_and"
+                    android:textColor="@color/half_black"
+                    android:textSize="@dimen/res_textsize_11sp" />
+
+                <TextView
+                    android:id="@+id/privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/user_privacy"
+                    android:textColor="@color/detail_navigator_selected"
+                    android:textSize="@dimen/res_textsize_11sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2.0dip"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="24.0dip"
+                android:paddingRight="24.0dip">
+
+                <ImageView
+                    android:layout_width="12.0dip"
+                    android:layout_height="12.0dip"
+                    android:src="@drawable/ic_about_anva" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4.0dip"
+                    android:gravity="center_horizontal"
+                    android:includeFontPadding="false"
+                    android:text="@string/about_safe"
+                    android:textColor="@color/half_black"
+                    android:textSize="@dimen/res_textsize_11sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="16.0dip"
+                android:text="@string/about_copyright"
+                android:textColor="@color/half_black"
+                android:textSize="@dimen/res_textsize_10sp" />
+        </LinearLayout>
+    </com.zhxu.storeapp.view.BounceScrollView>
+
+    <RelativeLayout
+        android:id="@+id/protocol_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/setting_bg_color"
+            android:fadingEdge="vertical"
+            android:scrollbars="vertical">
+
+            <com.zhxu.storeapp.view.webview.SecureWebView
+                android:id="@+id/protocol_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15.0dip"
+                android:paddingRight="15.0dip"
+                android:paddingTop="20.0dip" />
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
